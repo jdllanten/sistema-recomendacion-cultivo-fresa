@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sensores-fresa",
+          "appId": "1:263939674464:android:9a21f39a687788618c0e05",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sensores-fresa",
+          "configurations": {
+            "android": "1:263939674464:android:9a21f39a687788618c0e05",
+            "ios": "1:263939674464:ios:a9fccf40e2fd62618c0e05",
+            "macos": "1:263939674464:ios:a9fccf40e2fd62618c0e05",
+            "web": "1:263939674464:web:9f66302e41b603478c0e05",
+            "windows": "1:263939674464:web:7dc56bb94d8ea4db8c0e05"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
